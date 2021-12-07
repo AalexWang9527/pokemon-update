@@ -1,6 +1,7 @@
 import { Grid, Paper, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 // new change here
+// new change here
 export default function PokeBox({ contents }) {
     return (
         <Box>
