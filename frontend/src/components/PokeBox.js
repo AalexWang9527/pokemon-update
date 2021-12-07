@@ -8,7 +8,7 @@ export default function PokeBox({ contents }) {
             <Typography variant="h2" gutterBottom>My Pokémon</Typography>
             <Grid container spacing={2}>
                 {contents.map((pokemon) => (
-                    <Grid key={pokemon._id} item xs={4} sm={3} md={2}>
+                    <Grid key={pokemon._id} item xs={4} sm={3} md={4}>
                         <Paper>
                             <Typography variant="body1" sx={{ textAlign: 'center' }}>
                                 <img src={pokemon.imageUrl} />
